@@ -1,0 +1,37 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("grass.jpg");
+    width: 400px;
+    height: 400px;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+
+.apple{
+    background-image: url('apple.png');
+    height: 20px;
+    width: 20px;
+    background-size:cover;
+    background-color: transparent;
+}
+
+.snake{
+    background-image: url('hamster.png');
+    height: 20px;
+    width: 20px;
+    background-size:cover;
+    background-color: transparent;
+}
+
+.snake-head{
+    background-repeat: no-repeat;
+    background-color: transparent;
+    rotate: -90deg;
+    height: 20px;
+    background-size: contain;
+    width: 20px;
+}
